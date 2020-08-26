@@ -1,0 +1,20 @@
+{
+  "name": "sk4s-forcesub-bot",
+  "description": "This is a telegram bot writen in python for managing group/channel.",
+  "keywords": [
+    "telegram",
+    "forcesubscribe",
+    "forcesub"
+  ],
+  "repository": "https://github.com/viperadnan-git/force-subscribe-telegram-bot",
+  "success_url": "https://github.com/viperadnan-git/force-subscribe-telegram-bot",
+  "website": "https://github.com/viperadnan-git/force-subscribe-telegram-bot",  
+  "addons": [],
+  "buildpacks": [],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }  
+}
