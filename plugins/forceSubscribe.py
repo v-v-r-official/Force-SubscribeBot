@@ -50,21 +50,18 @@ def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              "Hey [{}](tg://user?id={}),\nYou are **not subscribed** to my [channel](https://t.me/{}) yet. \nPlease [join](https://t.me/{}) and **press the button below** to unmute yourself.".format(message.from_user.mention, channel, channel),
+              "Hey [{}](tg://user?id={}),\nYou are **not subscribed** to [My Channel](https://t.me/{}) yet. \nPlease [join this Channel](https://t.me/{}) \nand **press the button below** to unmute yourself.".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
               reply_markup=InlineKeyboardMarkup(
-                  [
-                   [InlineKeyboardButton(text = 'Join Channel', url="https://t.me/{}")]
-                   [InlineKeyboardButton("UnMute Me", callback_data="onUnMuteRequest")]
-                  ]
+                  [[InlineKeyboardButton("UnMute Me", callback_data="onUnMuteRequest")]]
               )
           )
           client.restrict_chat_member(chat_id, user_id, ChatPermissions(can_send_messages=False))
         except ChatAdminRequired:
-          sent_message.edit("❗ **I am not an admin here.**\n__Make me admin with ban user permission and add me again.\n#Leaving this chat...__")
+          sent_message.edit("❗ **I am not an admin here.**\nMake me admin with ban user permission and add me again.\n#Leaving this chat...")
           client.leave_chat(chat_id)
       except ChatAdminRequired:
-        client.send_message(chat_id, text=f"❗ **I am not an admin in @{channel}**\n__Make me admin in the channel and add me again.\n#Leaving this chat...__")
+        client.send_message(chat_id, text=f"❗ **I am not an admin in @{channel}**\nMake me admin in the channel and add me again.\n#Leaving this chat...")
         client.leave_chat(chat_id)
 
 
