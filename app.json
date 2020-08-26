@@ -6,9 +6,9 @@
     "forcesubscribe",
     "forcesub"
   ],
-  "repository": "https://github.com/viperadnan-git/force-subscribe-telegram-bot",
-  "success_url": "https://github.com/viperadnan-git/force-subscribe-telegram-bot",
-  "website": "https://github.com/viperadnan-git/force-subscribe-telegram-bot",  
+  "repository": "https://github.com/sachink4s/force2",
+  "success_url": "https://github.com/sachink4s/force2",
+  "website": "https://github.com/sachink4s/force2",  
   "addons": [],
   "buildpacks": [],
   "formation": {
