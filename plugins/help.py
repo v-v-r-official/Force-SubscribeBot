@@ -42,7 +42,7 @@ def map(pos):
             [InlineKeyboardButton(text = '-->', callback_data = "help+2")]
         ]
     elif(pos==len(tr.HELP_MSG)-1):
-        url = "https://github.com/viperadnan-git/force-subscribe-telegram-bot/issues/new"
+        url = "https://github.com/sachink4s/force2/issues/new"
         button = [
             [InlineKeyboardButton(text = 'Support Chat', url="https://t.me/ViperCommunity")],
             [InlineKeyboardButton(text = 'Feature Request & Issues', url=url)],
