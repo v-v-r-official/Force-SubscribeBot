@@ -8,7 +8,7 @@ class Config():
     APP_ID = os.environ.get("APP_ID", 6)
     API_HASH = os.environ.get("API_HASH", None)
   else:
-    BOT_TOKEN = "1326619732:AAFEIEqJpmOQr4rlmWzX84HbYvrOHNm9yRM"
+    BOT_TOKEN = "1350548924:AAHIH92qD6u5vDY25hFxcdXo9qdRCP6IzOE"
     DATABASE_URL = "mongodb+srv://sachink4s:sachink4s@cluster0.stwrx.mongodb.net/cluster0?retryWrites=true&w=majority"
     APP_ID = "1001799"
     API_HASH = "7e72902823d3ffa3ed58e36b1d24687d"
