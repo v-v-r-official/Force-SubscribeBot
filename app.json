@@ -1,14 +1,14 @@
 {
-  "name": "sk4s-forcesub-bot",
+  "name": "Force-SubscribeBot",
   "description": "This is a telegram bot writen in python for managing group/channel.",
   "keywords": [
     "telegram",
     "forcesubscribe",
     "forcesub"
   ],
-  "repository": "https://github.com/sachink4s/force2",
-  "success_url": "https://github.com/sachink4s/force2",
-  "website": "https://github.com/sachink4s/force2",  
+  "repository": "https://github.com/sachink4s/Force-SubscribeBot",
+  "success_url": "https://github.com/sachink4s/Force-SubscribeBot",
+  "website": "https://github.com/sachink4s/Force-SubscribeBot",  
   "addons": [],
   "buildpacks": [],
   "formation": {
