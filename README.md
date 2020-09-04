@@ -15,11 +15,11 @@
 ### Installation
 - Clone this repo
 ```
-git clone https://github.com/viperadnan-git/force-subscribe-telegram-bot
+git clone https://github.com/sachink4s/Force-SubscribeBot
 ```
 - Change directory
 ```
-cd force-subscribe-telegram-bot
+cd Force-SubscribeBot
 ```
 - Install requirements
 ```
