@@ -30,7 +30,7 @@ class Messages():
         
         "**Commmands**\n\n__/ForceSubscribe__ - To get the current settings.\n\n__/ForceSubscribe no/off/disable__ - To turn of ForceSubscribe.\n\n__/ForceSubscribe {channel username}__ - To turn on and setup the channel.\n\n__/ForceSubscribe clear__ - To unmute all members who muted by me__.\n\n*Note:* /FSub is an alias of /ForceSubscribe",
         
-        "**Developed by @SACHINK4S \n\nSupport : @SK4S_AllChannel**"
+        "**BOT by @VKPROJECTS \n\nSupport : @VKP_BOTS**"
       ]
 
       START_MSG = "**Hey [{}](tg://user?id={})**\nI can force members to join a specific channel before writing messages in the group.\n\nLearn more at /help"
